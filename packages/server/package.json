@@ -1,0 +1,12 @@
+{
+	"name": "tldraw-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "HOST=localhost PORT=1234 npx y-websocket",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
