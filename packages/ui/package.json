@@ -1,10 +1,9 @@
 {
-	"name": "tldraw-ui",
-	"private": true,
-	"version": "0.0.1",
+	"name": "tldraw-d-ui",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "../../node_modules/.bin/vite",
 		"build": "tsc && vite build",
 		"lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
@@ -14,6 +13,7 @@
 		"@tldraw/assets": "^2.0.0-alpha.13",
 		"@tldraw/state": "^2.0.0-alpha.13",
 		"@tldraw/tldraw": "^2.0.0-alpha.13",
+		"@tldraw/ui": "^2.0.0-alpha.13",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"signia": "^0.1.4",

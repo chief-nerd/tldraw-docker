@@ -1,9 +1,10 @@
 {
 	"name": "tldraw-docker",
 	"version": "1.0.0",
-	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "npm run ui dev & npm run server dev",
+		"ui": "npm --workspace=packages/ui run",
+		"server": "npm --workspace=packages/server run"
 	},
 	"license": "ISC",
 	"workspaces": [
